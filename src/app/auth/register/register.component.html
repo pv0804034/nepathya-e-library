@@ -1,0 +1,188 @@
+<app-login-register-sidenav></app-login-register-sidenav>
+<div class="main">
+  <h1 id="title" class="title" i18n="@@register">Register User</h1>
+  <div id="registerFormBox">
+    <div class="logo">
+      <img src="../../../assets/images/nepathya-preloader.png" alt="logo" />
+    </div>
+    <form [formGroup]="registerForm" (ngSubmit)="registerUser()">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-control-group" style="margin-bottom: 7px;">
+            <label class="label" for="input-firstName" i18n="@@firstname">First Name</label>
+            <input nbInput fullWidth type="text" name="firstname" id="firstname" formControlName="firstname"
+              class="form-control" i18n-placeholder="@@firstname" placeholder="Firstname" autofocus
+              style="font-size: 12px;">
+
+            <!-- <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.firstname.hasError('required') && registerForm.controls.firstname.touched"
+              i18n="@@firstnameIsRequired">
+              First name is required!
+            </small>
+
+            <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.firstname.hasError('pattern') && registerForm.controls.firstname.touched"
+              i18n="@@firstNameMustBeCharacter">
+              Must be in characters!
+            </small> -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-control-group" style="margin-bottom: 7px;">
+            <label class="label" for="input-lastname" i18n="@@lastname">Last Name</label>
+            <input nbInput fullWidth type="text" name="lastname" id="lastname" formControlName="lastname"
+              class="form-control" i18n-placeholder="@@lastname" placeholder="Lastname" autofocus
+              style="font-size: 12px;">
+
+            <!-- <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.lastname.hasError('required') && registerForm.controls.lastname.touched"
+              i18n="@@lastnameIsRequired">
+              Last name is required!
+            </small>
+
+            <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.lastname.hasError('pattern') && registerForm.controls.firstname.touched"
+              i18n="@@lastNameMustBeCharacter">
+              Must be in characters!
+            </small> -->
+          </div>
+        </div>
+      </div>
+      <div class="form-control-group" style="margin-bottom: 7px;">
+        <label class="label" for="input-email" i18n="@@username">Email</label>
+        <input nbInput fullWidth type="email" name="email" id="username" formControlName="email" class="form-control"
+          i18n-placeholder="@@username" placeholder="Username" autofocus style="font-size: 12px;">
+
+        <!-- <small class="form-text text-danger-color"
+          *ngIf="registerForm.controls.username.hasError('required') && registerForm.controls.username.touched"
+          i18n="@@userNameIsRequired">
+          User name is required!
+        </small>
+
+        <small class="form-text text-danger-color"
+          *ngIf="registerForm.controls.username.hasError('email') && registerForm.controls.username.dirty"
+          i18n="@@userNameIsRequired">
+          Not a type of email!
+        </small> -->
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-control-group" style="margin-bottom: 7px;">
+            <label class="label" for="input-password" i18n="@@password" style="float: left;">Password:</label>
+            <input nbInput fullWidth type="password" name="password" id="password" formControlName="password"
+              class="form-control" i18n-placeholder="@@password" placeholder="Password" autofocus
+              style="font-size: 12px;">
+            <!-- <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.password.hasError('required') && registerForm.controls.password.touched"
+              i18n="@@passwordIsRequired" style="text-align: left;">
+              Password is required!
+            </small>
+
+            <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.password.hasError('pattern') && registerForm.controls.password.dirty"
+              i18n="@@atLeastCharacters" style="text-align: left;">
+              At least 8 characters!
+            </small>
+
+            <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.password.hasError('pattern') && registerForm.controls.password.dirty"
+              i18n="@@atLeastOneUpperCaseLetter" style="text-align: left;">
+              At least one uppercase letter!
+            </small>
+
+            <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.password.hasError('pattern') && registerForm.controls.password.dirty"
+              i18n="@@atLeastOneDigit" style="text-align: left;">
+              At least one digit!
+            </small>
+
+            <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.password.hasError('pattern') && registerForm.controls.password.dirty"
+              i18n="@@atLeastOneSpecialChar" style="text-align: left;">
+              At least one special character!
+            </small> -->
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-control-group" style="margin-bottom: 7px;">
+            <label class="label" for="input-confirmPassword" i18n="@@confirmPassword" style="float: left;">Confirm
+              Password:</label>
+            <input nbInput fullWidth type="password" name="confirmPassword" id="confirmPassword"
+              formControlName="confirmPassword" class="form-control" i18n-placeholder="@@confirmPassword"
+              placeholder="Confirm Password" autofocus style="font-size: 12px;" compare="password">
+            <!-- <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.confirmPassword.hasError('required') && registerForm.controls.confirmPassword.touched"
+              i18n="@@confirmPasswordIsRequired" style="text-align: left;">
+              Confirm password is required!
+            </small>
+
+            <small class="form-text text-danger-color"
+              *ngIf="registerForm.controls.confirmPassword.hasError('compare') && registerForm.controls.confirmPassword.touched"
+              i18n="@@confirmPasswordIsRequired" style="text-align: left;">
+              Password doesnt match!
+            </small> -->
+
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-control-group" style="margin-bottom: 7px;">
+            <label for="phone" >Phone</label> <span class="text-danger-color">*</span>
+            <input type="text" nbInput fullWidth id="phone" class="form-control" shape="rectangle" placeholder="Enter Phone" formControlName="phone" autofocus>
+            <br>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-control-group" style="margin-bottom: 7px;">
+            <label for="faculty" >Faculty</label> <span class="text-danger-color">*</span><br>
+            <select id="link-1" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" type="string" name="faculty" formControlName="faculty">
+              <option *ngFor="let faculty of faculties" value="{{faculty.facultyName}}">{{faculty.facultyName}}</option>
+          </select><br>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-control-group" style="margin-bottom: 7px;">
+            <label for="year" >Year</label> <span class="text-danger-color">*</span>
+            <input type="number" nbInput fullWidth id="year" class="form-control" shape="rectangle" placeholder="Enter Year" formControlName="year" min="2071" max="4000" autofocus>
+            <br>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button nbButton fullWidth class="btn btn-primary" type="submit" i18n="@@login"
+             [class.btn-pulse]="submitted"
+            style="padding: 0.3rem; width: 100%">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Register
+          </button>
+        </div>
+      </div>
+
+      <div class="forgotPassword-login" style="margin-top: 10px; font-size: 15px">
+        <div class="row">
+          <div class="col-md-6" style="text-align: left;">
+            <a i18n="@@login" href="" routerLink="/login">Already have a account</a>
+          </div>
+
+          <div class="col-md-6" style="text-align: right; font-size: 15px">
+            <a class="text-danger-color" routerLink="/forgotPassword" i18n="@@forgotPassword">Forgot Password</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="copyright-text">
+    <p style="text-align: center; color: #000000; margin-left: 50%" i18n>©2021-2022, All Rights Reserved.
+      <a target="_blank" href="https://bootwal.com" style="text-decoration: none;">Bootwal R&D</a>
+    </p>
+  </div>
+</div>

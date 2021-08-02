@@ -1,0 +1,2692 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="changePassword" datatype="html">
+        <source>Change Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="currentPassword" datatype="html">
+        <source>Current Password:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="currentPasswordIsRequired" datatype="html">
+        <source> Current password is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newPassword" datatype="html">
+        <source>New Password:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newPasswordIsRequired" datatype="html">
+        <source> New password is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="confirmNewPassword" datatype="html">
+        <source>Confirm New Password:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="confirmNewPasswordIsRequired" datatype="html">
+        <source> Confirm new password is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="login" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span *ngIf=&quot;loading&quot; class=&quot;spinner-border spinner-border-sm mr-1&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Change Password </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">53,55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">135,137</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="register" datatype="html">
+        <source>Register new user</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6888392577145816874" datatype="html">
+        <source>©2021-2022, All Rights Reserved. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a target=&quot;_blank&quot; href=&quot;https://bootwal.com&quot; style=&quot;text-decoration: none;&quot;&gt;"/>Bootwal R&amp;D<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/change-password/change-password.component.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">155,156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layouts/one-column/one-column.layout.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7366236235781757708" datatype="html">
+        <source>Demand and Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login-register-sidenav/login-register-sidenav.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8746269443375927912" datatype="html">
+        <source>Login or register from here to access.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login-register-sidenav/login-register-sidenav.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="username" datatype="html">
+        <source>Username</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="userNameIsRequired" datatype="html">
+        <source> User name is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="password" datatype="html">
+        <source>Password:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="passwordIsRequired" datatype="html">
+        <source> Password is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="forgotPassword" datatype="html">
+        <source>Forgot Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/login/login.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstname" datatype="html">
+        <source>First Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstnameIsRequired" datatype="html">
+        <source> First name is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstNameMustBeCharacter" datatype="html">
+        <source> Must be in characters! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastname" datatype="html">
+        <source>First Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastnameIsRequired" datatype="html">
+        <source> Last name is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastNameMustBeCharacter" datatype="html">
+        <source> Must be in characters! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="atLeastCharacters" datatype="html">
+        <source> At least 8 characters! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="atLeastOneUpperCaseLetter" datatype="html">
+        <source> At least one uppercase letter! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">90,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="atLeastOneDigit" datatype="html">
+        <source> At least one digit! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="atLeastOneSpecialChar" datatype="html">
+        <source> At least one special character! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="confirmPassword" datatype="html">
+        <source>Confirm Password:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">109,110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="confirmPasswordIsRequired" datatype="html">
+        <source> Confirm password is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/auth/register/register.component.html</context>
+          <context context-type="linenumber">123,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Charts" datatype="html">
+        <source>Products Graph According To Districts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productName" datatype="html">
+        <source>Product: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/products.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selecproductName" datatype="html">
+        <source>Select product name..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addRoleTitle" datatype="html">
+        <source>ADD ROLE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterRole" datatype="html">
+        <source>Role Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterrole" datatype="html">
+        <source>Enter new role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roleIsRequired" datatype="html">
+        <source> Role is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roleMustBeCharacter" datatype="html">
+        <source> Must be in characters! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterRoleDescription" datatype="html">
+        <source>Role Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterdescription" datatype="html">
+        <source>Enter role description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="descriptionIsRequired" datatype="html">
+        <source> Description is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Submit" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/add-fiscal-year/add-fiscal-year.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Cancel" datatype="html">
+        <source>Cancel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/add-fiscal-year/add-fiscal-year.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/edit-fiscal-year/edit-fiscal-year.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roleDataCreated" datatype="html">
+        <source>Role Data Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="success" datatype="html">
+        <source> Success</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/add-roles/add-roles.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/roles.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.ts</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/add-fiscal-year/add-fiscal-year.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/edit-fiscal-year/edit-fiscal-year.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/products.component.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/units.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editRoleTitle" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{editRoletitle}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="role" datatype="html">
+        <source>Role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="update" datatype="html">
+        <source>UPDATE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/edit-fiscal-year/edit-fiscal-year.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fiscalYearDataCreated" datatype="html">
+        <source>Role Updated Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/edit-roles/edit-roles.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/add-fiscal-year/add-fiscal-year.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/edit-fiscal-year/edit-fiscal-year.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="units" datatype="html">
+        <source>Roles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/roles.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/units.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="add" datatype="html">
+        <source><x id="START_TAG_NB_ICON" ctype="x-nb_icon" equiv-text="&lt;nb-icon icon=&quot;plus-circle&quot;&gt;"/><x id="CLOSE_TAG_NB_ICON" ctype="x-nb_icon" equiv-text="&lt;/nb-icon&gt;"/> ADD </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/roles.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/units.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SN" datatype="html">
+        <source>SN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/roles.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/units.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roleName" datatype="html">
+        <source>Role Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/roles.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="action" datatype="html">
+        <source>Action</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/roles.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/products.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/units.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roleDeleted" datatype="html">
+        <source>Role is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/roles/roles.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addUserTitle" datatype="html">
+        <source>ADD USER</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstName" datatype="html">
+        <source>FIRSTNAME</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterFirstName" datatype="html">
+        <source>Enter first name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastName" datatype="html">
+        <source>LASTNAME</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterLastName" datatype="html">
+        <source>Enter last name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="email" datatype="html">
+        <source>EMAIL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterEmail" datatype="html">
+        <source>Enter email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>PHONE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterPhone" datatype="html">
+        <source>Enter phone</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Role" datatype="html">
+        <source>ROLE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5475230857734868542" datatype="html">
+        <source>Select Role..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">selectRole</note>
+      </trans-unit>
+      <trans-unit id="userCreated" datatype="html">
+        <source>User  Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/add-users/add-users.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstNameIsRequired" datatype="html">
+        <source> First name is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastNameIsRequired" datatype="html">
+        <source> Last name is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="emailIdIsRequired" datatype="html">
+        <source> Email is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phoneIsRequired" datatype="html">
+        <source> Phone is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6770349213237835725" datatype="html">
+        <source>Select Roles..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/edit-users/edit-users.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <note priority="1" from="description">selectRole</note>
+      </trans-unit>
+      <trans-unit id="users" datatype="html">
+        <source>Users</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="userDeleted" datatype="html">
+        <source>User is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/data-settings/data-settings/users/users.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addEstimateDataTitle" datatype="html">
+        <source>ADD Estimate Data</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="province" datatype="html">
+        <source>Select Province:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selectProvinces" datatype="html">
+        <source>Select province..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="districts" datatype="html">
+        <source>Select District:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selectDistrict" datatype="html">
+        <source>Select province first</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="product" datatype="html">
+        <source>Product</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="quantity" datatype="html">
+        <source>Quantity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterQuantity" datatype="html">
+        <source>Enter quantity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fiscalYear" datatype="html">
+        <source>Active Fiscal Year: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/edit-fiscal-year/edit-fiscal-year.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="wardNo" datatype="html">
+        <source>Select fiscal year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="month" datatype="html">
+        <source>Month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selecmonthName" datatype="html">
+        <source>Select Month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="estimateDataCreated" datatype="html">
+        <source>Estimate Data  Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/add-estimate/add-estimate.component.ts</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="estimateTitle" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ editEstimateTitle }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="products" datatype="html">
+        <source>Select Products</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/products.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5548115685405365024" datatype="html">
+        <source>Select Products..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <note priority="1" from="description">selectProduct</note>
+      </trans-unit>
+      <trans-unit id="submit" datatype="html">
+        <source>SUBMIT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cancel" datatype="html">
+        <source>CANCEL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="estimateUpdated" datatype="html">
+        <source> Estimate Updated Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/edit-estimate/edit-estimate.component.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="district" datatype="html">
+        <source>District</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="EstimateDataDeleted" datatype="html">
+        <source>Estimate Data is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/estimate/estimate.component.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addFiscalYearTitle" datatype="html">
+        <source>ADD FISCAL YEAR</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/add-fiscal-year/add-fiscal-year.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterNewYear" datatype="html">
+        <source>Enter new Year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/add-fiscal-year/add-fiscal-year.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fiscalYearNameIsRequired" datatype="html">
+        <source> Fiscal Year is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/add-fiscal-year/add-fiscal-year.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editFiscalYearTitle" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{title}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/edit-fiscal-year/edit-fiscal-year.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterFiscalYear" datatype="html">
+        <source>Enter fiscal year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/edit-fiscal-year/edit-fiscal-year.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fiscalYears" datatype="html">
+        <source>Fiscal Years</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="year" datatype="html">
+        <source>Year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activateFiscalYear" datatype="html">
+        <source>Activate Fiscal Year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fiscalYearUpdated" datatype="html">
+        <source>Fiscal Year Updated Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.ts</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="FiscalYearDeleted" datatype="html">
+        <source>FiscalYear is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/fiscal-year/fiscal-year.component.ts</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="unit" datatype="html">
+        <source> Units</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roles" datatype="html">
+        <source> Roles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vendor" datatype="html">
+        <source> Vendor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productEstimate" datatype="html">
+        <source> Product Estimation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="localSupply" datatype="html">
+        <source> Local Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="governmentSupply" datatype="html">
+        <source> Government Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privateSupply" datatype="html">
+        <source> Private Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productReport" datatype="html">
+        <source> Product Report</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main-dashboard/main-dashboard.component.ts</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productTitle" datatype="html">
+        <source>Add Product</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterProductName" datatype="html">
+        <source>Enter product name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ProductNameIsRequired" datatype="html">
+        <source> Product Name is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productNameMustBeCharacter" datatype="html">
+        <source> Must be in characters! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selectUnits" datatype="html">
+        <source>Select units..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ratePerUnit" datatype="html">
+        <source>Rate Per Unit:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ratePerUnitIsRequired" datatype="html">
+        <source> Rate Per Unit is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ratePerUnitShouldBeGreaterThanZero" datatype="html">
+        <source> Rate Per Unit should be grater than 0! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productCreated" datatype="html">
+        <source> Product Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/add-products/add-products.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/edit-products/edit-products.component.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="s.n" datatype="html">
+        <source>S.N</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/products.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="unitName" datatype="html">
+        <source>Rate per Unit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/products.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productDeleted" datatype="html">
+        <source>Product is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/products/products.component.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="reports" datatype="html">
+        <source>Supply Reports</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="municipality" datatype="html">
+        <source>Municipality:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/supply-report-monthly/supply-report-monthly.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selectMunicipality" datatype="html">
+        <source>Select district first..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="wardNoIsRequired" datatype="html">
+        <source> Ward No is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="wardNumberShouldBeGreaterThanZero" datatype="html">
+        <source> Ward Number should be grater than 0! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">79,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selecFiscalYear" datatype="html">
+        <source>Select fiscalYear..</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="monthRequired" datatype="html">
+        <source> Month is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">86,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="monthShouldBeGreaterThanZero" datatype="html">
+        <source> Month should be grater than 0! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="monthShouldBeLessThanTwelve" datatype="html">
+        <source> Month should be grater than or equal to 12! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/report/report.component.html</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="months" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Month<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>: <x id="INTERPOLATION" equiv-text="{{ months[this.reportsDatas.month] }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="districtName" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>District:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{ this.reportsDatas.districtName }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productRate" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Product Rate:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{ this.reportsDatas.rate }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="estimateQuantity" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Estimate Quantity:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{ this.reportsDatas.estimateQuantity }"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="availableQuantity" datatype="html">
+        <source>Available Quantity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="availableQuantityValue" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ this.reportsDatas.availableQuantity }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report-monthly/product-report-monthly.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selectmonthName" datatype="html">
+        <source>Select Month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="s..n" datatype="html">
+        <source>SN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Month" datatype="html">
+        <source>Month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Product" datatype="html">
+        <source>Product Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/reports/product-report/product-report.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="govtSuppyTitle" datatype="html">
+        <source>ADD Government Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="wardNoShouldBeLessThanZero" datatype="html">
+        <source> Ward No should be grater than 0! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="quantityIsRequired" datatype="html">
+        <source> Quantity is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="quantityShouldBeGreaterThanZero" datatype="html">
+        <source> Quantity should be grater than 0! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.html</context>
+          <context context-type="linenumber">106,107</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">106,107</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">106,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="govtSupplyDataCreated" datatype="html">
+        <source> Government Supply Data Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/add-government-supply/add-government-supply.component.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="governmentUpdated" datatype="html">
+        <source> Government Supply Updated Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/edit-government-supply/edit-government-supply.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="govtSupply" datatype="html">
+        <source>Government Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addGovtSupply" datatype="html">
+        <source>ADD</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="governmentSupplyDeleted" datatype="html">
+        <source>Government Supply is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/government-supply/government-supply.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="localSuppyTitle" datatype="html">
+        <source>ADD Local Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="localSupplyDataCreated" datatype="html">
+        <source> Local Supply Data Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/add-local-supply/add-local-supply.component.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="localSupplyTitle" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ editLocalSupplyTitle }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="localUpdated" datatype="html">
+        <source> Local Supply Updated Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/edit-local-supply/edit-local-supply.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addLocalSupply" datatype="html">
+        <source>ADD</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="localSupplyDeleted" datatype="html">
+        <source>Local Supply is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/local-supply/local-supply.component.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privateSuppyTitle" datatype="html">
+        <source>ADD Private Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privateSupplyDataCreated" datatype="html">
+        <source> Private Supply Data Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/add-private-supply/add-private-supply.component.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privateSupplyTitle" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ editPrivateSupply }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privateUpdated" datatype="html">
+        <source> Private Supply Updated Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/edit-private-supply/edit-private-supply.component.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addprivateSupply" datatype="html">
+        <source>ADD</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privateSupplyDeleted" datatype="html">
+        <source>Private Supply Data is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/supply/private-supply/private-supply.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addUnitTitle" datatype="html">
+        <source>ADD UNIT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterUnit" datatype="html">
+        <source>Unit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enterNewUnit" datatype="html">
+        <source>Enter new Unit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="UnitNameIsRequired" datatype="html">
+        <source> Unit is required! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/add-units/add-units.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editUnitTitle" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{title}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/edit-units/edit-units.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/units.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="unitDeleted" datatype="html">
+        <source>Unit is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/units/units.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vendordataTitle" datatype="html">
+        <source>ADD Vendor Supply</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vendorName" datatype="html">
+        <source>Vendor Name:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="entervendorName" datatype="html">
+        <source>Enter vendor name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vendorNameMustBeCharacter" datatype="html">
+        <source> Vendor name Must be in characters! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vendorDataCreated" datatype="html">
+        <source> Vendor Data Created Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/add-vendor-data/add-vendor-data.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editvendordataTitle" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ editVendorDataTitle }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/edit-vendor-data/edit-vendor-data.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vendors" datatype="html">
+        <source>Vendor Datas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="address" datatype="html">
+        <source>Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="viewVendor" datatype="html">
+        <source><x id="START_TAG_NB_ICON" ctype="x-nb_icon" equiv-text="&lt;nb-icon icon=&quot;edit-2&quot;&gt;"/><x id="CLOSE_TAG_NB_ICON" ctype="x-nb_icon" equiv-text="&lt;/nb-icon&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vendorDeleted" datatype="html">
+        <source>Vendor Data is deleted Successfully.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/vendor-data/vendor-data.component.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

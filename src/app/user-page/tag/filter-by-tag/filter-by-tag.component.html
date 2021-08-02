@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div id="link">
+
+
+<div *ngFor="let d of data">
+      <div class="row" >
+        <div class="col-1">
+        </div>
+        <div class="col-10" >
+          <div class="card" id="link-1">
+              <div class="card-header">
+                <h3><b>{{d.title}}</b></h3> 
+              </div>
+              <div class="card-body">
+                  <h5 class="card-title"><b>By <br> <span *ngFor="let u of d.authors">
+                    {{u.firstName}} {{u.lastName}}<br>
+                  </span></b></h5>
+                  <h5 class="card-title"><b><span>{{d.semester}}<sup>th</sup> sem {{d.year}}-Batch Type: {{d.type}} </span></b></h5>
+                  <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                  <div class="row">
+                    <div class="col-10">
+                      <li *ngFor="let tag of d.tags" class="grid" style="list-style-type: disc; font-size:medium; padding-left:0.5em" ><span style="font-weight: bold; ">{{tag.tagName}}</span></li>
+                    </div>
+                    <div class="col-1">
+                     <h6 style="float: right;" (click)="preview(d)" class="preview"><b>Preview</b></h6> 
+                    </div>
+                    <div class="col-1">
+                      <a href="{{d.fileUrl}}" style="float: right;" target="_blank"><h6 style="color:blue"><b>Download</b></h6></a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+        </div>
+        <br>
+</div>
+</div>
+<app-footer></app-footer>

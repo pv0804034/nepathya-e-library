@@ -1,0 +1,18 @@
+<nb-card>
+  <nb-card-body>
+    <table class="table-responsive">
+      <thead class="thead-dark">
+        <tr>
+          <th *ngFor="let datasHeading of columnData">{{ datasHeading.header }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let datasRows of gridData">
+          <td *ngFor="let datasRecords of columnData">
+            <span>{{ datasRows[datasRecords.value] }}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </nb-card-body>
+</nb-card>

@@ -1,0 +1,26 @@
+@import 'themes';
+
+@import '~@nebular/theme/styles/globals';
+
+@include nb-install() {
+  @include nb-theme-global();
+};
+
+.nb-theme-default nb-layout .layout .layout-container .content .columns nb-layout-column {
+  padding: 1rem 1rem 0.5rem !important;
+}
+
+.form-control-file{
+  border: 1px solid #ced4da;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
+.form-control-file:focus{
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+/* You can add global styles to this file, and also import other style files */

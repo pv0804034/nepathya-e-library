@@ -1,0 +1,72 @@
+<app-login-register-sidenav id="app-login-sidebar"></app-login-register-sidenav>
+<div class="main">
+  <div class="login-logo" style="text-align: center; margin-top: 1rem">
+    <img src="../../../assets/images/nepathya-preloader.png" alt="logo" style="width: 6rem; margin-left: 50%">
+    <h6 style="margin-left: 50%; margin-top: 1rem">Nepathya E-Library</h6>
+  </div>
+  <div id="loginFormBox">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-control-group" style="margin-bottom: 10px;">
+        <label class="label" for="input-email" i18n="@@username">
+          User Name</label>
+        <input nbInput fullWidth type="email" name="email" id="username" formControlName="username" class="form-control"
+          i18n-placeholder="@@username" placeholder="Username" autofocus style="font-size: 12px;">
+
+        <small class="form-text text-danger-color"
+          *ngIf="loginForm.controls.username.hasError('required') && loginForm.controls.username.touched"
+          i18n="@@userNameIsRequired">
+          User name required
+        </small>
+      </div>
+
+      <div class="form-control-group" style="margin-bottom: 10px;">
+        <label class="label" for="input-password" i18n="@@password">
+          Password:</label>
+        <nb-form-field>
+          <input nbInput fullWidth type="password" name="password" id="password" formControlName="password"
+            class="form-control" i18n-placeholder="@@password" placeholder="Password" autofocus
+            style="font-size: 12px;">
+          <!-- <button nbSuffix nbButton type="button" ghost (click)="passwordService.toggleShowPassword()">
+            <nb-icon [icon]="passwordService.showPassword ? 'eye-outline' : 'eye-off'" pack="eva">
+            </nb-icon>
+          </button> -->
+        </nb-form-field>
+
+        <small class="form-text text-danger-color"
+          *ngIf="loginForm.controls.password.hasError('required') && loginForm.controls.password.touched"
+          i18n="@@passwordIsRequired">
+
+          Password is required
+        </small>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <button nbButton fullWidth class="btn btn-primary" type="submit" i18n="@@login"
+            [disabled]="submitted || !loginForm.valid" [class.btn-pulse]="submitted"
+            style="padding: 0.3rem; width: 100%">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Login
+          </button>
+        </div>
+      </div>
+
+      <div class="forgotPassword-register" style="margin-top: 10px; font-size: 15px">
+        <div class="row">
+          <div class="col-md-6" style="text-align: left;">
+            <a i18n="@@register" href="" routerLink="/register">Register a New User</a>
+          </div>
+
+          <!-- <div class="col-md-6" style="text-align: right; font-size: 15px">
+            <a class="text-danger-color" routerLink="/forgotPassword" i18n="@@forgotPassword">पासवर्ड भुल्नु भयो</a>
+          </div> -->
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="copyright-text">
+    <p style="text-align: center; color: #000000; margin-left: 50%" i18n>©2021-2022 , All Right Reserved.
+      <a target="_blank" href="https://bootwal.com" style="text-decoration: none;">Nepathya E-Library</a>
+    </p>
+  </div>
+</div>

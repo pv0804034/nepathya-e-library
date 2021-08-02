@@ -1,0 +1,49 @@
+<nb-card model-full status status="primary" style="min-height: 250px; max-height: 700px; min-width: 700px">
+    <nb-card-header style="background-color:#588C7F;">
+      <label>
+        <span style="color: #ffffff" i18n="@@addUnitTitle">Edit Link</span>
+      </label>
+      <nb-icon icon="close-circle" (click)="dismiss()"
+        style="float: right; cursor: pointer; font-size: 26px; color: #ffffff"></nb-icon>
+  
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="editForm" (ngSubmit)="onEdit()">
+            <div class="column">
+              <div class="col-md-12">
+                <div class="form-group">
+                    <label for="title" >Title</label> <span class="text-danger-color">*</span>
+                    <input type="text"  value="{{data.title}}" nbInput fullWidth id="title"  class="form-control" shape="rectangle" placeholder="Enter Title" formControlName="title" autofocus>
+                    <br>
+                </div>
+                
+                <label for="faculty" >Faculty</label> <span class="text-danger-color">*</span>
+                <div class="form-group">
+                    <nb-select name="faculty" placeholder="Faculty" formControlName="faculty">
+                        <nb-option *ngFor="let faculty of faculties" value="{{faculty.facultyId}}">{{faculty.facultyName}}</nb-option>
+                    </nb-select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="year" >Year</label> <span class="text-danger-color">*</span>
+                    <input type="number" nbInput fullWidth value="{{data.year}}" id="year" class="form-control" shape="rectangle" placeholder="Enter Year" formControlName="year" min="2071" max="4000" autofocus>
+                    <br>
+                </div>
+
+                <label for="expireTime">Expire Time</label> <span class="text-danger-color">*</span>
+                <div class="form-group">
+                    <input type="datetime-local" nbInput class="form-control" value="{{data.expireTime}}" placeholder="Pick Date" formControlName="expireTime">
+                </div>
+
+                <label for="active">Active</label><span class="text-danger-color">*</span>
+                <div class="form-group" >
+                  <nb-toggle status="primary" [checked]="!toggle" (click)="click()" nbInput formControlName="isActive"></nb-toggle>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </div>
+            <hr>
+        </form> 
+    </nb-card-body>
+  </nb-card>

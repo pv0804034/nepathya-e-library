@@ -1,0 +1,24 @@
+
+
+  <nb-card accent="info" style="min-height: 300px; min-width: 400px">
+    <nb-card-header>
+        <span>{{documentService.documentData.title}}</span>
+        
+        <nb-icon icon="close-circle" (click)="dismiss()"
+        style="float: right; cursor: pointer; font-size: 26px;"></nb-icon><br>
+        
+        By <br>
+        <span *ngFor="let u of documentService.documentData.authors">
+          {{u.firstName}} {{u.lastName}}<br>
+        </span>
+        <span> {{documentService.documentData.semester}}<sup>th</sup> sem {{documentService.documentData.year}}-Batch Type: {{documentService.documentData.type}} </span>
+    </nb-card-header>
+    <nb-card-body>
+    <p>{{documentService.documentData.discription}}</p>
+    </nb-card-body>
+
+    <nb-card-footer>
+        <li *ngFor="let tag of documentService.documentData.tags" class="grid" style="list-style-type: disc;padding-left:0.5em" ><span style="font-weight: bold; ">{{tag.tagName}}</span></li>
+        <a href="{{documentService.documentData.fileUrl}}" style="float: right;">Download</a>
+    </nb-card-footer>
+  </nb-card>

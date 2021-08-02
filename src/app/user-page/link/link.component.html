@@ -1,0 +1,26 @@
+<app-header></app-header>
+<div id="link">
+    <div *ngFor="let d of linkData" >
+
+        <div *ngIf="checkRole(d.faculty,d.year)" class="row" style="padding-top: 3vw;">
+          <div class="col-1">
+          </div>
+          <div class="col-10" >
+            <div class="card" id="link-1" (click)="openUploadForm(d.id)">
+                <div class="card-header">
+                  <!-- <p></p><b>{{d.title}}</b></h4>  -->
+                  <h6>By <b>{{d.author}} </b> At {{ d.createdDate | date:'medium'}} </h6>
+                </div>
+                <div class="card-body">
+                   
+                    <p class="card-text">{{d.title}}</p>
+                    <p class="card-text">Expire in {{d.expiretime | date:'medium'}}</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          </div>
+          <br>
+  </div>
+</div>
+<app-footer></app-footer>

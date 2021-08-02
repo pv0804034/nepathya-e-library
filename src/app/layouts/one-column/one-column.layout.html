@@ -1,0 +1,21 @@
+<nb-layout windowMode>
+  <nb-layout-header fixed class="print-hide-widget" id="hide-on-print">
+    <app-header></app-header>
+  </nb-layout-header>
+
+  <nb-sidebar class="menu-sidebar print-hide-widget" tag="menu-sidebar" responsive start id="hide-on-print">
+    <ng-content select="nb-menu"></ng-content>
+  </nb-sidebar>
+
+  <nb-layout-column>
+    <ng-content select="router-outlet"></ng-content>
+  </nb-layout-column>
+
+  <nb-layout-footer fixed class="print-hide-widget">
+    <div class="copyright-text">
+      <p style="text-align: center; color: #000000;" i18n>© Copyright 2021
+        <a target="_blank" href="https://bootwal.com" style="text-decoration: none;">Nepathya E-Library</a>
+      </p>
+    </div>
+  </nb-layout-footer>
+</nb-layout>

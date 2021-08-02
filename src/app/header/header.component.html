@@ -1,0 +1,28 @@
+<div class="header-container" [ngClass]="status ? 'open' : 'close'">
+  <div class="logo-container">
+    <a (click)="toggleSidebar()" class="sidebar-toggle" style="padding-right: 0rem !important;">
+      <nb-icon icon="menu-2-outline"></nb-icon>
+      <img src="assets/images/nepathya-preloader.png" alt="logo"
+        style="width: 5rem; margin-left: 4rem; padding-left:10px;">
+
+    </a>
+    <a class="logo" href="#">
+    </a>
+  </div>
+
+
+</div>
+<div class="row my-3" style="display: flex; justify-content: space-around; ">
+  <h6 style="margin-top: auto; margin-bottom: auto; font-size: 1.1rem">Nepathya E-Library</h6>
+</div>
+
+<div class="header-container">
+  <nb-actions size="small">
+    <nb-action class="user-action">
+      <nb-user size="large" name="Admin" class="user-image" [nbContextMenu]="userMenu"
+        nbContextMenuTag="user-context-menu" title="
+        Log In">
+      </nb-user>
+    </nb-action>
+  </nb-actions>
+</div>

@@ -1,0 +1,75 @@
+<nb-layout>
+  <nb-layout-column>
+    <nb-card accent="danger">
+      <nb-card-header style="background-color:#588C7F;">
+        <label>
+          <h6 style="text-transform: uppercase; color: #ffffff" i18n="@@users">Users</h6>
+        </label>
+
+        <button nbButton status="basic" style="float: right;" size="small" (click)="createUsers()">
+          <nb-icon icon="plus-circle"></nb-icon> Add
+        </button>
+
+      </nb-card-header>
+      <nb-card-body>
+        <button nbButton nbTooltip="Approved Document" status="basic" style="float: left;" (click)="active()">Active</button>
+        <button nbButton nbTooltip="Approved Document" status="basic" (click)="inactive()">Inactive</button>
+        
+        
+          <nb-select placeholder="filter" style="float: right;">
+            <nb-option *ngFor="let role of listOfRoles" (click)="filter(role)">{{role.role}}</nb-option>
+          </nb-select>
+        <div class="form-group" style="float:right;">
+          
+        </div>
+        <form #form="ngForm">
+          <table class="table">
+            <thead class="thead-light">
+              <tr>
+              <tr>
+                <th i18n="@@SN">S.N.</th>
+                <th i18n="@@firstName">First Name</th>
+                <th i18n="@@lastName">Last Name</th>
+                <th i18n="@@email">E-Mail</th>
+                <th i18n="@@role">Role</th>
+                <th i18n="@@phone">Phone No.</th>
+                <th i18n="@@visibility">Visibility</th>
+                <th i18n="@@action">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let user of users; let i=index">
+                <td scope="row">{{i+1}}</td>
+                <td> {{ user.firstName }}</td>
+                <td>{{ user.lastName }}</td>
+                <td>{{ user.emailId }}</td>
+                <td>{{ user.roleName }}</td>
+                <td>{{ user.phone }}</td>
+                <td>
+                  <button nbButton size="small" status="primary" style="float: left; float: right;" (click)="change(user.id)"
+                    style="margin-right: 10px">
+                    <nb-icon icon="edit-2"></nb-icon>
+                  </button>
+                </td>
+                <td>
+                  <!-- <button nbButton size="small" status="primary" style="margin-right: 10px">
+                    <nb-icon icon="eye"></nb-icon>
+                  </button> -->
+                  <button nbButton size="small" status="warning" (click)="onUserDataEdit(user)"
+                    style="margin-right: 10px">
+                    <nb-icon icon="edit-2"></nb-icon>
+                  </button>
+                  <button nbButton size="small" status="danger" (click)="onDelete(user.id)">
+                    <nb-icon icon="trash"></nb-icon>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </nb-card-body>
+      <nb-card-footer>
+      </nb-card-footer>
+    </nb-card>
+  </nb-layout-column>
+</nb-layout>

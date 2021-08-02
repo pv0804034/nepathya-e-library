@@ -1,0 +1,56 @@
+#registerFormBox {
+    margin: 5rem auto;
+    margin-top: 2rem;
+    width: 90%;
+    margin-left: 55%;
+    padding: 2rem 3rem;
+    border: 1px solid #b1b1b1;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px 2px #9b9b9b;
+  }
+  
+  #registerFormBox .logo {
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  
+  #registerFormBox .logo img {
+    width: 40%;
+    height: auto;
+  }
+  
+  #registerFormBox label {
+    color: #006eaf;
+  }
+  
+  #registerFormBox button {
+    background-color: #3366FF;
+    padding: 0.5rem 5rem;
+  }
+  
+  #registerFormBox form > div:nth-child(3) {
+    text-align: center;
+  }
+  
+  #registerFormBox div:nth-child(3) a {
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #registerFormBox {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #registerFormBox {
+      width: 40%;
+    }
+  }
+  
+  .main h1{
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 2rem;
+  }
+  

@@ -1,0 +1,33 @@
+<nb-card model-full status status="primary" style="min-height: 250px; min-width: 700px">
+    <nb-card-header style="background-color:#588C7F;">
+      <label>
+        <span style="color: #ffffff" i18n="@@addFacultyTitle">Add Faculty</span>
+      </label>
+      <nb-icon icon="close-circle" (click)="dismiss()"
+        style="float: right; cursor: pointer; font-size: 26px; color: #ffffff"></nb-icon>
+  
+    </nb-card-header>
+    <nb-card-body>
+      <form [formGroup]="addFaculty" (ngSubmit)="saveTagData()">
+        <div class="column">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="newTag" >Faculty</label> <span class="text-danger-color">*</span>
+              <input type="text" nbInput fullWidth id="newFaculty" class="form-control" shape="rectangle"
+                i18n-placeholder="@@enterNewFaculty" placeholder="Enter new Faculty" formControlName="facultyName" autofocus>
+              <small class="form-text text-danger-color"
+                *ngIf="addFaculty.controls.facultyName.hasError('required') && addFaculty.controls.facultyName.touched"
+                i18n="@@FacultyNameIsRequired" style="margin-top: 0rem;">
+                Faculty name is required
+              </small><br>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <button nbButton shape="round" nbButton size="small" type="submit" style="float: left;" status="success"
+          i18n="@@Submit" [disabled]="submitted || !addFaculty.valid" [class.btn-pulse]="submitted">Submit</button>
+        <button nbButton shape="round" nbButton size="small" type="cancel" style="margin-left: 5px;" status="danger"
+          (click)="dismiss()" i18n="@@Cancel">Cancle</button>
+      </form>
+    </nb-card-body>
+  </nb-card>

@@ -1,0 +1,107 @@
+<nb-card status status="primary" style="max-height: 500px; max-width: 600px">
+  <nb-card-header style="text-transform: uppercase;">
+    Update User
+    <nb-icon icon="close-circle" (click)="dismiss()"
+      style="float: right; cursor: pointer; font-size: 26px; color: #ffffff"></nb-icon>
+  </nb-card-header>
+  <nb-card-body>
+
+    <form #form="ngForm" (submit)="onUpdateUsersData(usersService.UserData.id, form)">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="firstName" i18n="@@firstName">First Name</label> <span class="text-danger-color">*</span> <br>
+            <input type="text" nbInput fullWidth class="form-control" shape="rectangle"
+              i18n-placeholder="@@enterFirstName" placeholder="Enter first name" name="firstName" #firstName="ngModel"
+              [(ngModel)]="usersService.UserData.firstName" required>
+            <small class="form-text text-danger-color"
+              *ngIf="form.controls.firstName.hasError('required') && form.controls.firstName.touched"
+              i18n="@@firstNameIsRequired" style="margin-top: 0rem;">
+              First Name is required
+            </small><br>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="lastName" i18n="@@lastName">Last Name</label> <span class="text-danger-color">*</span> <br>
+            <input type="text" nbInput fullWidth class="form-control" shape="rectangle"
+              i18n-placeholder="@@enterLastName" placeholder="Enter last name" name="lastName" #lastName="ngModel"
+              [(ngModel)]="usersService.UserData.lastName" required>
+            <small class="form-text text-danger-color"
+              *ngIf="form.controls.lastName.hasError('required') && form.controls.lastName.touched"
+              i18n="@@lastNameIsRequired" style="margin-top: 0rem;">
+              Last Name is required
+            </small><br>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="email" i18n="@@email">E-Mail</label> <span class="text-danger-color">*</span> <br>
+            <input type="text" nbInput fullWidth class="form-control" shape="rectangle" i18n-placeholder="@@enterEmail"
+              placeholder="Enter email" name="emailId" #emailId="ngModel" [(ngModel)]="usersService.UserData.emailId"
+              required>
+            <small class="form-text text-danger-color"
+              *ngIf="form.controls.emailId.hasError('required') && form.controls.emailId.touched"
+              i18n="@@emailIdIsRequired" style="margin-top: 0rem;">
+              E-mail is required
+            </small>
+            <small class="form-text text-danger-color"
+              *ngIf="form.controls.emailId.hasError('email') && form.controls.emailId.touched"
+              i18n="@@emailIdIsRequired" style="margin-top: 0rem;">
+              E-mail pattern doesnot matched
+            </small><br>
+
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="phone" i18n="@@phone">Phone No.</label> <span class="text-danger-color">*</span> <br>
+            <input type="text" nbInput fullWidth class="form-control" shape="rectangle" i18n-placeholder="@@enterPhone"
+              placeholder="Enter email" name="phone" #phone="ngModel" [(ngModel)]="usersService.UserData.phone"
+              required>
+            <small class="form-text text-danger-color"
+              *ngIf="form.controls.phone.hasError('email') && form.controls.phone.touched" i18n="@@phoneIsRequired"
+              style="margin-top: 0rem;">
+              Phone No. is required
+            </small><br>
+            <br>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="userRole" i18n="@@Role">Role</label>
+            <span class="text-danger-color">*</span> <br>
+            <nb-select placeholder="Select Roles.." i18n-placeholder="selectRole" name="role" #role="ngModel"
+              [(ngModel)]="usersService.UserData.roleName">
+              <nb-option *ngFor="let roles of listOfRoles" [value]="roles.role">
+                {{ roles.role }}
+              </nb-option>
+            </nb-select>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-6">
+          <div class="form-group">
+            <label for="userRole" i18n="@@Role">ROLE</label> <br>
+            <nb-select placeholder="Select Role.." i18n-placeholder="selectRole" [formControl]="role">
+              <nb-option *ngFor="let roles of listOfRoles" [value]="roles.role">
+                {{ roles.role }}
+              </nb-option>
+            </nb-select>
+          </div>
+        </div> -->
+      </div>
+      <hr>
+      <button type="submit" nbButton shape="round" size="small" status="success" size="small" style="margin-right: 5px;"
+        i18n="@@Submit">Submit</button>
+      <button nbButton shape="round" size="small" size="small" status="danger" (click)="dismiss()" i18n="@@Cancel">Cancel</button>
+    </form>
+
+
+  </nb-card-body>
+</nb-card>

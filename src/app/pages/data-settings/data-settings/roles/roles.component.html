@@ -1,0 +1,42 @@
+<nb-layout>
+  <router-outlet> </router-outlet>
+  <nb-layout-column>
+    <nb-card accent="danger">
+      <nb-card-header style="background-color:#588C7F;">
+        <label>
+          <h6 i18n="@@units" style="color: #ffffff" i18n="@@roles">Roles</h6>
+        </label>
+        <button nbButton status="basic" style="float: right;" size="small" i18n="@@add" (click)="createRole()">
+          <nb-icon icon="plus-circle"></nb-icon> Add
+        </button>
+      </nb-card-header>
+      <nb-card-body>
+        <table class="table text-center">
+          <thead class="thead-light">
+            <tr>
+              <th i18n="@@SN">S.N.</th>
+              <th i18n="@@roleName">Role</th>
+              <th i18n="@@action">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let roleData of roles; let i=index">
+              <td scope="row">{{i+1}}</td>
+              <td>{{roleData.role}}</td>
+              <td>
+                <button nbTooltip="Edit Role" nbButton size="small" status="warning" (click)="editUnit(roleData)"
+                  style="margin-right: 10px">
+                  <nb-icon icon="edit-2"></nb-icon>
+                </button>
+                <button nbTooltip="Delete Role" nbButton size="small" status="danger"
+                  (click)="onDelete(roleData.roleId)">
+                  <nb-icon icon="trash"></nb-icon>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </nb-card-body>
+    </nb-card>
+  </nb-layout-column>
+</nb-layout>

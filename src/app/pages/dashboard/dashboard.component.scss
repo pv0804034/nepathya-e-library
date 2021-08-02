@@ -1,0 +1,46 @@
+tr.shortage-70, .legend-block div:last-child span.legend{
+    background-color: #f00242;
+}
+
+tr.shortage-40, .legend-block div:nth-child(3) span.legend{
+    background-color: #ff0044c0;
+}
+
+tr.shortage-0, .legend-block div:nth-child(2) span.legend{
+    background-color: #ff00444b;
+}
+
+span.legend{
+    width: 2.65rem;
+    height: 0.9rem;
+    border: 2px solid #222b45;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+      
+
+g.active g{
+  fill:#006400;
+}
+
+g.shortage g{
+    fill: red;
+}
+
+g.activeshortage g{
+    fill: #B22222;
+}
+
+#info-table tbody {
+    display: block;
+    height: 11.5rem;
+    overflow: auto;
+}
+#info-table thead, #info-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;/* even columns width , fix width of table too*/
+}
+  
+
+

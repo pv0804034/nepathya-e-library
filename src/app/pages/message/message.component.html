@@ -1,0 +1,52 @@
+<nb-layout>
+    <router-outlet></router-outlet>
+    <nb-layout-column>
+      <nb-card accent="success">
+        <nb-card-header style=" background-color: #588C7F;;">
+          <label>
+            <h6 style="text-transform: uppercase; color: #ffffff" i18n="@@message">Messages</h6>
+          </label>
+        </nb-card-header> 
+  
+        <nb-card-body>
+          <!-- <button nbButton nbTooltip="Approved Document" status="basic" style="float: left;" (click)="approvedChange()">Approved</button>
+          <button nbButton nbTooltip="Approved Document" status="basic" (click)="unapprovedChange()">Unapproved</button> -->
+          <table class="table text-center">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col" i18n="@@s.n">S.N</th>
+                <th scope="col" i18n="@@createName">Name</th>
+                <th scope="col" i18n="@@title">Email</th>
+                <th scope="col" i18n="@@action">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let d of messages; let i=index">
+                <td scope="row">{{i + 1}}</td>
+                <td>{{ d.fullName }}</td>
+                <td>{{ d.email }}</td>
+                <td>
+                  <button nbButton size="small" status="primary" style="margin-right: 10px"
+                  (click)="previewMessage(d)" >
+                    <nb-icon icon="eye"></nb-icon>
+                  </button>
+                  <button nbTooltip="Delete Document" nbButton size="small" status="danger"
+                  style="margin-right: 10px" (click)="delete(d)">
+                    <nb-icon icon="trash"></nb-icon>
+                  </button>
+                  <button nbTooltip="Reply" nbButton size="small" status="success"
+                    (click)="onReply(d)">
+                    <nb-icon icon="corner-up-right-outline"></nb-icon>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </nb-card-body>
+        <nb-card-footer>
+          <div class="row">
+          </div>
+        </nb-card-footer>
+      </nb-card>
+    </nb-layout-column>
+  </nb-layout>

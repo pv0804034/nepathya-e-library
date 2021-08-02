@@ -1,0 +1,23 @@
+.grid{
+    float: left;
+    margin-left: 2px;
+}
+
+.preview:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.preview{
+    color: blue;
+}
+
+#link{
+    padding-top: 20px;
+    background-color: #d3d3d3;
+    min-height: 1000px;
+}
+
+#link-1{
+    background-color: #ececec;
+}

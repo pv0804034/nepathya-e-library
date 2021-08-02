@@ -1,0 +1,69 @@
+<nb-card model-full status status="primary" style="min-height: 250px; max-height: 700px; min-width: 700px">
+    <nb-card-header style="background-color:#588C7F;">
+      <label>
+        <span style="color: #ffffff" i18n="@@addUnitTitle">Add Document</span>
+      </label>
+      <nb-icon icon="close-circle" (click)="dismiss()"
+        style="float: right; cursor: pointer; font-size: 26px; color: #ffffff"></nb-icon>
+  
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="addDocument" (ngSubmit)="saveDocument()">
+            <div class="column">
+              <div class="col-md-12">
+                <div class="form-group">
+                    <label for="authors" >Authors</label> <span class="text-danger-color">*</span><br>
+                    <input type="text" nbInput fullWidth id="authors" class="form-control" shape="rectangle" placeholder="Enter new authors" formControlName="authors" autofocus>
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="title" >Title</label> <span class="text-danger-color">*</span>
+                    <input type="text" nbInput fullWidth id="title" class="form-control" shape="rectangle" placeholder="Enter Title" formControlName="title" autofocus>
+                    <br>
+                </div>
+                <label for="type" >Type</label> <span class="text-danger-color">*</span>
+                <div class="form-group">
+                    <nb-select name="type" placeholder="NgModel" formControlName="type">
+                        <nb-option *ngFor="let type of types" value="{{type}}">{{type}}</nb-option>
+                    </nb-select>
+                </div>
+                <label for="discription">Abstract</label><span class="text-danger-color">*</span>
+                <div class="mb-3">
+                    <textarea nbInput class="form-control" name="discription" placeholder="Abstract" formControlName="discription" rows="3"></textarea>
+                </div>
+                <label for="faculty" >Faculty</label> <span class="text-danger-color">*</span>
+                <div class="form-group">
+                    <nb-select name="faculty" placeholder="Faculty" formControlName="faculty">
+                        <nb-option *ngFor="let faculty of faculties" value="{{faculty.facultyId}}">{{faculty.facultyName}}</nb-option>
+                    </nb-select>
+                </div>
+
+                <label for="tag">Tag</label><span class="text-danger-color">*</span>
+                <div class="form-group">
+                    <nb-select name="tag" placeholder="Tag" formControlName="tags" multiple >
+                        <nb-option *ngFor="let tag of tags" value="{{tag.tagId}}">{{tag.tagName}}</nb-option>
+                    </nb-select>
+                </div>
+                <label for="file" class="form-label">Choose Your File</label><span class="text-danger-color">*</span>
+                <div class="formGroup">
+                    <input nbInput class="form-control" type="file" name="file" formControlName="file" (change)="onFileChange($event)">
+                </div><br>
+                
+                <div class="form-group">
+                    <label for="semester" >Semester</label> <span class="text-danger-color">*</span>
+                    <input type="number" nbInput fullWidth id="semester" class="form-control" shape="rectangle" placeholder="Enter Semester" formControlName="semester" min="1" max="8" autofocus>
+                    <br>
+                </div>
+
+                <div class="form-group">
+                    <label for="year" >Year</label> <span class="text-danger-color">*</span>
+                    <input type="number" nbInput fullWidth id="year" class="form-control" shape="rectangle" placeholder="Enter Year" formControlName="year" min="2071" max="4000" autofocus>
+                    <br>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </div>
+            <hr>
+        </form> 
+    </nb-card-body>
+  </nb-card>

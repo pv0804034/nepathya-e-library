@@ -1,0 +1,68 @@
+<nb-card model-full status status="primary" style="max-height: 500px; max-width: 600px">
+  <nb-card-header style="background-color:#588C7F;">
+    <label>
+      <span style="color: #ffffff" i18n="@@addUserTitle">Add User</span>
+    </label>
+    <nb-icon icon="close-circle" (click)="dismiss()"
+      style="float: right; cursor: pointer; font-size: 26px; color: #ffffff"></nb-icon>
+
+  </nb-card-header>
+  <nb-card-body>
+    <form [formGroup]="addUser" (ngSubmit)="saveUserData()">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="firstName" i18n="@@firstName">First Name</label>
+            <input type="text" nbInput fullWidth id="firstName" class="form-control" shape="rectangle"
+              placeholder="Enter first name" i18n-placeholder="@@enterFirstName" name="firstName"
+              formControlName="firstName">
+            <br>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="lastName" i18n="@@lastName">Last Name</label>
+            <input type="text" nbInput fullWidth id="lastName" class="form-control" shape="rectangle"
+              placeholder="Enter last name" i18n-placeholder="@@enterLastName" name="lastName"
+              formControlName="lastName">
+            <br>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="email" i18n="@@email">E-Mail</label>
+            <input type="text" name="email" nbInput fullWidth id="email" class="form-control" shape="rectangle"
+              placeholder="Enter email" i18n-placeholder="@@enterEmail" formControlName="email">
+            <br>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="phone" i18n="@@phone">Phone No.</label>
+            <input type="text" nbInput fullWidth id="phone" class="form-control" shape="rectangle"
+              placeholder="Enter phone" i18n-placeholder="@@enterPhone" formControlName="phone"><br>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="userRole" i18n="@@Role">Role</label> <br>
+            <nb-select placeholder="Select Role.." i18n-placeholder="selectRole" [formControl]="role">
+              <nb-option *ngFor="let roles of listOfRoles" [value]="roles.role">
+                {{ roles.role }}
+              </nb-option>
+            </nb-select>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <button type="submit" nbButton shape="round" size="small" status="success" size="small" style="margin-right: 5px;"
+        i18n="@@Submit">Submit</button>
+      <button nbButton shape="round" size="small" size="small" status="danger" (click)="dismiss()" i18n="@@Cancel">Cancel</button>
+    </form>
+
+  </nb-card-body>
+</nb-card>

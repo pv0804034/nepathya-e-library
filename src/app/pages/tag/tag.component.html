@@ -1,0 +1,56 @@
+<nb-layout>
+    <router-outlet></router-outlet>
+    <nb-layout-column>
+      <nb-card accent="danger">
+        <nb-card-header style=" background-color: #588C7F;;">
+          <label>
+            <h6 style="text-transform: uppercase; color: #ffffff" i18n="@@documents">Tag</h6>
+          </label>
+          <button nbButton nbTooltip="Add Tag" status="basic" style="float: right;" size="small"
+            (click)="createTag()">
+            <nb-icon icon="plus-circle"></nb-icon> Add
+          </button>
+        </nb-card-header>
+  
+        <nb-card-body>
+          <table class="table text-center">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col" i18n="@@s.n">S.N</th>
+                <th scope="col" i18n="@@tagName">Tag Name</th>
+                <th scope="col" i18n="@@action">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let d of data; let i=index">
+                <td scope="row">{{ i + 1}}</td>
+                <td>{{ d.tagName }}</td>
+                <td>
+                  <!-- <button nbButton size="small" status="primary" style="margin-right: 10px"
+                    (click)="viewProductRate(productData.productId,productData.productName)">
+                    <nb-icon icon="eye"></nb-icon>
+                  </button> -->
+                  <button nbTooltip="Edit Tag" nbButton size="small" status="warning" style="margin-right: 10px"
+                    (click)="editTag(d)">
+                    <nb-icon icon="edit-2"></nb-icon>
+                  </button>
+                  <!-- <button nbTooltip="Delete Products" nbButton size="small" status="danger"
+                    (click)="onDelete(productData.productId)">
+                    <nb-icon icon="trash"></nb-icon>
+                  </button> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </nb-card-body>
+        <nb-card-footer>
+          <div class="row">
+            <!-- <div class="col-md-6" style="margin-right: auto;">
+              <pagination-controls (pageChange)="currentPage=$event">
+              </pagination-controls>
+            </div> -->
+          </div>
+        </nb-card-footer>
+      </nb-card>
+    </nb-layout-column>
+  </nb-layout>

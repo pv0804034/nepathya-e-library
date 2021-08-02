@@ -1,0 +1,83 @@
+<nb-layout>
+    <router-outlet></router-outlet>
+    <nb-layout-column>
+      <nb-card accent="success">
+        <nb-card-header style=" background-color: #588C7F;;">
+          <label>
+            <h6 style="text-transform: uppercase; color: #ffffff" i18n="@@documents">Documents</h6>
+          </label>
+          <button nbButton nbTooltip="Add Document" status="basic" style="float: right;" size="small"
+            (click)="createDocument()">
+            <nb-icon icon="plus-circle"></nb-icon> Add
+          </button> 
+        </nb-card-header> 
+  
+        <nb-card-body>
+          <button nbButton nbTooltip="Approved Document" status="basic" style="float: left;" (click)="approvedChange()">Approved</button>
+          <button nbButton nbTooltip="Approved Document" status="basic" (click)="unapprovedChange()">Unapproved</button>
+          
+          <div class="form-group" style="float:right;">
+              <nb-select name="filter" placeholder="filter" formControlName="filter" >
+                  <!-- <nb-option >haribol</nb-option>
+                  <nb-option>harekrishna</nb-option> -->
+              </nb-select>
+          </div>
+          <table class="table text-center">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col" i18n="@@s.n">S.N</th>
+                <th scope="col" i18n="@@createName">Creater Name</th>
+                <th scope="col" i18n="@@title">Title</th>
+                <th scope="col" i18n="@@faculty">Faculty</th>
+                <th scope="col" i18n="@@year">Year</th>
+                <th scope="col" i18n="@@semester">Semester</th>
+                <th scope="col">Visibility</th>
+                <th scope="col" i18n="@@action">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let d of data; let i=index">
+                <td scope="row">{{i + 1}}</td>
+                <td>
+                  <span *ngFor="let u of d.authors">
+                      {{u.firstName}} {{u.lastName}} <br>
+                  </span>
+              </td>
+                <td>{{ d.title }}</td>
+                <td>{{d.faculty}}</td>
+                <td>{{d.year}}</td>
+                <td>{{d.semester}}</td>
+                <td>
+                  <button nbButton size="small" status="primary"(click)="changeVisibility(d)">change
+                    
+                  </button>
+                </td>
+                <td>
+                  <button nbButton size="small" status="primary" style="margin-right: 10px"
+                  (click)="previewDocument(d)" >
+                    <nb-icon icon="eye"></nb-icon>
+                  </button>
+                  <button nbTooltip="Edit Document" nbButton size="small" status="warning" style="margin-right: 10px"
+                    (click)="editDocument(d)">
+                    <nb-icon icon="edit-2"></nb-icon>
+                  </button>
+                  <button nbTooltip="Delete Document" nbButton size="small" status="danger"
+                    (click)="onDelete(d.id)">
+                    <nb-icon icon="trash"></nb-icon>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </nb-card-body>
+        <nb-card-footer>
+          <div class="row">
+            <!-- <div class="col-md-6" style="margin-right: auto;">
+              <pagination-controls (pageChange)="currentPage=$event">
+              </pagination-controls>
+            </div> -->
+          </div>
+        </nb-card-footer>
+      </nb-card>
+    </nb-layout-column>
+  </nb-layout>

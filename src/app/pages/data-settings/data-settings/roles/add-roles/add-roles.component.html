@@ -1,0 +1,48 @@
+<nb-card model-full status status="primary" style="min-height: 250px; min-width: 700px">
+  <nb-card-header style="background-color:#588C7F;">
+    <label>
+      <span style="color: #ffffff" i18n="@@addRoleTitle">Add Role</span>
+    </label>
+    <nb-icon icon="close-circle" (click)="dismiss()"
+      style="float: right; cursor: pointer; font-size: 26px; color: #ffffff"></nb-icon>
+
+  </nb-card-header>
+  <nb-card-body>
+    <form [formGroup]="addRole" (ngSubmit)="saveRoleData()">
+      <div class="column">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="role" i18n="@@enterRole">Role</label> <span class="text-danger-color">*</span>
+            <input type="text" nbInput fullWidth id="role" class="form-control" shape="rectangle"
+              i18n-placeholder="@@enterrole" placeholder="Enter new role" name="role" formControlName="role">
+            <small class="form-text text-danger-color"
+              *ngIf="addRole.controls.role.hasError('required') && addRole.controls.role.touched"
+              i18n="@@roleIsRequired" style="margin-top: 0rem;">
+              Role is required
+            </small>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="role" i18n="@@enterRoleDescription">Role Discription</label><span class="text-danger-color">*</span>
+            <textarea rows="6" type="text" nbInput fullWidth id="description" class="form-control" shape="rectangle"
+              i18n-placeholder="@@enterdescription" placeholder="Enter role description" name="description"
+              formControlName="description"></textarea>
+
+            <small class="form-text text-danger-color"
+              *ngIf="addRole.controls.description.hasError('required') && addRole.controls.description.touched"
+              i18n="@@descriptionIsRequired" style="margin-top: 0rem;">
+              Role Discription is required
+            </small><br>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <button nbButton shape="round" nbButton size="small" type="submit" style="float: left;" status="success"
+        i18n="@@Submit" [disabled]="submitted || !addRole.valid" [class.btn-pulse]="submitted">Submit</button>
+      <button nbButton shape="round" nbButton size="small" type="cancel" style="margin-left: 5px;" status="danger"
+        (click)="dismiss()" i18n="@@Cancel">Cancle</button>
+    </form>
+  </nb-card-body>
+</nb-card>
